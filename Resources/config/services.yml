@@ -1,0 +1,7 @@
+parameters:
+#    r3c_nested_menu.example.class: R3c\NestedMenuBundle\Example
+
+services:
+#    r3c_nested_menu.example:
+#        class: %r3c_nested_menu.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

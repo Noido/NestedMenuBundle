@@ -1,0 +1,26 @@
+{
+    "name": "r3c/nestedmenu-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Nested Menu Bundle",
+    "keywords": ["Nested Menu application", "xml", "json", "api", "web service"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "James Noident",
+            "email": "james.noident@gmail.com",
+            "homepage": "http://www.r3cweb.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle":         ">=2.1,<2.3-dev",
+        "twig/twig":                        "*",
+        "doctrine/doctrine-bundle":         "*",
+        "stof/doctrine-extensions-bundle": "~1.1@dev"
+    },
+    "autoload": {
+        "psr-0": { "R3c\\NestedmenuBundle": "" }
+    },
+    "target-dir": "R3c/NestedMenuBundle",
+    "minimum-stability": "dev"
+}
